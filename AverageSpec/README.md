@@ -2,7 +2,7 @@ The average spectra are constructed using code in [Blondin & Tonry 2007](http://
 
 Name Convention:
 
-meanspec + <b>type</b> + spectra inclusion method + phase + smooth method
+meanspec + <b>type</b> + <b>spectra inclusion method</b> + <b>phase</b> + <b>smooth method</b>
 - type: Ib (SN Ib), Ic (SN Ic), Icbroad (SN Ic-bl), Icbroad_nogrb (SN Ic-bl without GRB), Icbroad_withgrb (SN Ic-bl with GRB, or SN-GRB), cosmsngrb (high luminosity SN-GRB), llsngrb (low luminosity SN-GRB)
 - spectra inclusion method: presence of "1specperSN" means that only 1 spectrum per SN is included in an average spectrum, while absence of "1specperSN" means that all spectra within the required phase range are included in the average spectra.
 - phase: with respect to date of V band maximum light
