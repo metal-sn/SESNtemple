@@ -1,6 +1,6 @@
 The average spectra are constructed using code in [Blondin & Tonry 2007](http://arxiv.org/abs/0709.4488). 
 
-Name Convention:
+# Name Convention:
 
 meanspec + <b>type</b> + <b>spectra inclusion method</b> + <b>phase</b> + <b>smooth method</b>
 - type: Ib (SN Ib), Ic (SN Ic), Icbroad (SN Ic-bl), Icbroad_nogrb (SN Ic-bl without GRB), Icbroad_withgrb (SN Ic-bl with GRB, or SN-GRB), cosmsngrb (high luminosity SN-GRB), llsngrb (low luminosity SN-GRB)
@@ -8,7 +8,7 @@ meanspec + <b>type</b> + <b>spectra inclusion method</b> + <b>phase</b> + <b>smo
 - phase: with respect to date of V band maximum light
 - smooth method: presence of "ft" means that spectra are smoothed using FFT method in [Liu et al. (2016)](http://arxiv.org/abs/1510.08049) and [Modjaz et al. (2016)](http://arxiv.org/abs/1509.07124), while absence of "ft" means that spectra are smoothed using band-pass filter in [Blondin & Tonry 2007](http://arxiv.org/abs/0709.4488).
 
-Key Words:
+# Key Words:
 - fmean: mean spectrum constructed using smoothed spectra
 - fsdev: standard deviation of data
 - fmed: median spectrum
@@ -23,7 +23,7 @@ Key Words:
 - tmin: minimum phase
 - tmax: maximum phase
 
-Example in IDL:
+# Example in IDL:
 ```
 IDl> restore, 'meanspecIcbroad_1specperSN_0_ft.sav'
 IDL> plot, wlog, fmean
