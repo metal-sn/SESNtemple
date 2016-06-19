@@ -1,7 +1,8 @@
 The average spectra are constructed using code in [Blondin & Tonry 2007](http://arxiv.org/abs/0709.4488). 
 
 Name Convention:
-meanspec + type + spectra inclusion method + phase + smooth method
+
+meanspec + <b>type</b> + spectra inclusion method + phase + smooth method
 - type: Ib (SN Ib), Ic (SN Ic), Icbroad (SN Ic-bl), Icbroad_nogrb (SN Ic-bl without GRB), Icbroad_withgrb (SN Ic-bl with GRB, or SN-GRB), cosmsngrb (high luminosity SN-GRB), llsngrb (low luminosity SN-GRB)
 - spectra inclusion method: presence of "1specperSN" means that only 1 spectrum per SN is included in an average spectrum, while absence of "1specperSN" means that all spectra within the required phase range are included in the average spectra.
 - phase: with respect to date of V band maximum light
@@ -23,8 +24,10 @@ Key Words:
 - tmax: maximum phase
 
 Example in IDL:
+```
 IDl> restore, 'meanspecIcbroad_1specperSN_0_ft.sav'
 IDL> plot, wlog, fmean
 IDL> oplot, wlog, fmean + fsdev
 IDL> oplot, wlog, fmean - fsdev
+```
 
