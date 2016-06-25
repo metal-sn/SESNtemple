@@ -23,11 +23,22 @@ meanspec + <b>type</b> + <b>spectra inclusion method</b> + <b>phase</b> + <b>smo
 - tmin: minimum phase
 - tmax: maximum phase
 
-#### Example in IDL:
+#### Examples 
+
+In IDL:
 ```
-IDl> restore, 'meanspecIcbroad_1specperSN_0_ft.sav'
+IDL> restore, 'meanspecIc_1specperSN_0.sav'
 IDL> plot, wlog, fmean
 IDL> oplot, wlog, fmean + fsdev
 IDL> oplot, wlog, fmean - fsdev
+```
+In Python:
+```
+from scipy.io.idl import readsav
+>>>import pylab as pl
+>>>s = readsav('meanspecIc_1specperSN_0.sav')
+>>>pl.plot(s.wlog, s.fmean)
+>>>pl.plot(s.wlog, s.fmean + s.fsdev)
+>>>pl.plot(s.wlog, s.fmean - s.fsdev)
 ```
 
