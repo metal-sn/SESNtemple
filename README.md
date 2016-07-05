@@ -9,19 +9,19 @@ This repository contains data products in [Liu & Modjaz (2014)](http://arxiv.org
 If you use data products in this repository, please <b>cite</b> related references listed above.
 
 
-  @ARTICLE{2014arXiv1405.1437L,
-    author = {{Liu}, Y. and {Modjaz}, M.},
-     title = "{SuperNova IDentification spectral templates of 70 stripped-envelope core-collapse supernovae}",
-   journal = {ArXiv e-prints},
-  archivePrefix = "arXiv",
-     eprint = {1405.1437},
-   primaryClass = "astro-ph.SR",
-   keywords = {Astrophysics - Solar and Stellar Astrophysics, Astrophysics - High Energy Astrophysical Phenomena},
-       year = 2014,
-     month = may,
-    adsurl = {http://adsabs.harvard.edu/abs/2014arXiv1405.1437L},
-   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-  }
+  	@ARTICLE{2014arXiv1405.1437L,
+    	author = {{Liu}, Y. and {Modjaz}, M.},
+     	title = "{SuperNova IDentification spectral templates of 70 stripped-envelope core-collapse supernovae}",
+   	journal = {ArXiv e-prints},
+  	archivePrefix = "arXiv",
+     	eprint = {1405.1437},
+   	primaryClass = "astro-ph.SR",
+   	keywords = {Astrophysics - Solar and Stellar Astrophysics, Astrophysics - High Energy Astrophysical Phenomena},
+       	year = 2014,
+     	month = may,
+    	adsurl = {http://adsabs.harvard.edu/abs/2014arXiv1405.1437L},
+	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+  	}
 
 
   @ARTICLE{2015arXiv151008049L,
