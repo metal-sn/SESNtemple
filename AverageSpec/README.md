@@ -37,8 +37,14 @@ In Python:
 from scipy.io.idl import readsav
 import pylab as pl
 s = readsav('meanspecIc_1specperSN_0.sav')
-pl.plot(s.wlog, s.fmean)
-pl.plot(s.wlog, s.fmean + s.fsdev)
-pl.plot(s.wlog, s.fmean - s.fsdev)
+pl.fill_between(s.wlog, s.fmean + s.fsdev, s.fmean - s.fsdev, color = 'k', alpha = 0.5)
+pl.plot(s.wlog, s.fmean, label="mean Ic phase = 0", color="DarkGreen", lw=2)
+pl.ylabel(r"relative flux", fontsize = 18)
+pl.xlabel(r"Rest Wavelength $\AA$", fontsize = 18)
+pl.legend(fontsize = 18)
+pl.savefig("AverageIcPhase0.png")
 ```
 
+which will generate the following figure
+
+![alt tag](https://raw.githubusercontent.com/nyusngroup/SESNtemple/master/AverageSpec/AverageIcPhase0.png)
