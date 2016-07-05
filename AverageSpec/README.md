@@ -35,10 +35,10 @@ IDL> oplot, wlog, fmean - fsdev
 In Python:
 ```
 from scipy.io.idl import readsav
->>>import pylab as pl
->>>s = readsav('meanspecIc_1specperSN_0.sav')
->>>pl.plot(s.wlog, s.fmean)
->>>pl.plot(s.wlog, s.fmean + s.fsdev)
->>>pl.plot(s.wlog, s.fmean - s.fsdev)
+import pylab as pl
+s = readsav('meanspecIc_1specperSN_0.sav')
+pl.plot(s.wlog, s.fmean)
+pl.plot(s.wlog, s.fmean + s.fsdev)
+pl.plot(s.wlog, s.fmean - s.fsdev)
 ```
 
