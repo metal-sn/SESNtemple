@@ -8,7 +8,7 @@
 ###New templates
 ###with maximum date
 #Temp_name   IAU_name   Type		Redshift     MJD_Tmax     Band     Method                    Ref_spec
-sn1998fa |    1998fa	| IIb		0.024883     51180.0 (51178.2) R (convert to V)	       polynomial-Matheson2001   Modjaz/etal:2014
+sn1998fa     1998fa	 IIb		0.024883     51180.0 (51178.2) R (convert to V)	       polynomial-Matheson2001   Modjaz/etal:2014
 sn2000er     2000er	 Ibn		0.031172     51868.5  R	       1		         Pastorello/etal:2008
 sn2002ao     2002ao	 Ibn		0.005134     52282.5  R	       2		       	 Pastorello/etal:2008
 sn2003dh     2003dh	 Ic-broad	0.1685	     52746.5  V	       polynomial-Matheson2003	 Matheson/etal:2003, Stanek/etal:2003, Kawabata/etal:2003, Kosugi/etal:2004, Deng/etal:2005
