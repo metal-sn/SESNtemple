@@ -8,6 +8,7 @@ This repository contains data products in [Liu & Modjaz (2014)](http://arxiv.org
 
 If you use data products in this repository, please <b>cite</b> related references listed above.
 
+Liu & Modjaz (2014):
 
   	@ARTICLE{2014arXiv1405.1437L,
     	author = {{Liu}, Y. and {Modjaz}, M.},
@@ -23,6 +24,7 @@ If you use data products in this repository, please <b>cite</b> related referenc
 	  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
   	}
 
+Liu et al. (2016):
 
 	 @ARTICLE{2015arXiv151008049L,
      	author = {{Liu}, Y.-Q. and {Modjaz}, M. and {Bianco}, F.~B. and {Graur}, O.
@@ -33,11 +35,13 @@ If you use data products in this repository, please <b>cite</b> related referenc
      	eprint = {1510.08049},
   	primaryClass = "astro-ph.HE",
    	keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Solar and Stellar Astrophysics},
-	 year = 2015,
+	 year = 2016,
       	month = oct,
     	adsurl = {http://adsabs.harvard.edu/abs/2015arXiv151008049L},
     	adsnote = {Provided by the SAO/NASA Astrophysics Data System} 
 	 }
+
+Modjaz et al. (2016):
   
 	  @ARTICLE{2015arXiv150907124M,
      	author = {{Modjaz}, M. and {Liu}, Y.~Q. and {Bianco}, F.~B. and {Graur}, O.
@@ -48,7 +52,7 @@ If you use data products in this repository, please <b>cite</b> related referenc
      	eprint = {1509.07124},
   	primaryClass = "astro-ph.HE",
    	keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Solar and Stellar Astrophysics},
-       	year = 2015,
+       	year = 2016,
       	month = sep,
     	adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150907124M},
     	adsnote = {Provided by the SAO/NASA Astrophysics Data System}
