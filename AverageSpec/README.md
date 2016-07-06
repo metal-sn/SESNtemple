@@ -5,7 +5,7 @@ The average spectra are constructed using code from [Blondin & Tonry 2007](http:
 meanspec + <b>type</b> + <b>spectral inclusion method</b> + <b>phase</b> + <b>smoothing method</b>
 - type: Ib (SN Ib), Ic (SN Ic), Icbroad (SN Ic-bl), Icbroad_nogrb (SN Ic-bl without GRB), Icbroad_withgrb (SN Ic-bl with GRB, or SN-GRB), cosmsngrb (high luminosity, cosmological SN-GRB), llsngrb (low luminosity SN-GRB)
 - spectral inclusion method: presence of "1specperSN" means that only 1 spectrum per SN is included in an average spectrum for the required phase range, while absence of "1specperSN" means that all spectra of that SN within the required phase range are included in the average spectra.
-- phase: in the rest-fram with respect to date of V band maximum light (includes spectra at +/- 2 days with respect to the target phase)
+- phase: in the rest-frame with respect to date of V band maximum light (includes spectra at +/- 2 days with respect to the target phase)
 - smooth method: presence of "ft" means that spectra are smoothed using FFT method in [Liu et al. (2016)](http://arxiv.org/abs/1510.08049) and [Modjaz et al. (2016)](http://arxiv.org/abs/1509.07124), while absence of "ft" means that spectra are smoothed using band-pass filter in [Blondin & Tonry 2007](http://arxiv.org/abs/0709.4488). The spectra of SNe Ic-bl and SNe Ic (as presented in Modjaz et al. 2016) were smoothed by the FFT method.
 
 #### Key Words:
