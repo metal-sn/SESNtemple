@@ -50,4 +50,4 @@ pl.savefig("AverageIcPhase0.png")
 
 which will generate the following figure
 
-![alt tag](https://raw.githubusercontent.com/nyusngroup/SESNtemple/master/AverageSpec/AverageIcPhase0.png)
+![alt tag](https://raw.githubusercontent.com/nyusngroup/SESNtemple/master/MeanSpec/MeanIcPhase0.png)
