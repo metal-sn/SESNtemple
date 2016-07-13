@@ -16,6 +16,6 @@ There are 2 subdirectories with that include the .lnw files for the SNID templat
 - **/templates_new**: These include SNe that had not been released in Blondin's SNID library release (ie "templates-2.0"), and thus are "new".
 
 NOTES: 
-- we included the new SN type "Ib-n", of which we include 3 SNe (00er,02ao, 06jc).
-- For comparison: there were 465 spectra of 36 SESNe in Blondin's release (templates-2.0). In this release, there are at total 403 spectral templates of 44 SNe Ib and its subtypes (including 1 SN that was already in templates-2.0) and 341 of 39 SNe Ic and its subtypes (including 2 SNe that were already in templates-2.0).
+- we included the new SN type "Ibn", of which we include 3 SNe (00er,02ao, 06jc).
+- For comparison: there were 465 spectra of 36 SESNe in Blondin's release (templates-2.0). In this release, there are at total 631 spectral templates of 51 SNe Ib and its subtypes (including 1 SN that was already in templates-2.0) and 429 of 45 SNe Ic and its subtypes (including 2 SNe that were already in templates-2.0).
 
