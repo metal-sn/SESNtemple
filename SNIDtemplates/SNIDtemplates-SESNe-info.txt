@@ -13,6 +13,7 @@ sn2003dh     2003dh	 Ic-broad	0.1685	     52746.5  V	       polynomial-Matheson2
 sn2003jd     2003jd	 Ic-broad	0.018796     52943.6  V        polynomial-Valenti2008	 Valenti/etal:2008, Modjaz/etal:2014 
 sn2003lw     2003lw	 Ic-broad	0.1055	     52997.5 (52995.2) R (converted to V)	       polynomial-Malesani2004	 Malesani/etal:2004
 sn2004dk     2004dk      Ib-norm	0.005247     53237.5 (53240.7+/-1.0) V (V by Bianco)       8      			 Modjaz/etal:2014
+sn2004dn     2004dn	 Ic-norm        0.0126       53230.0  V         8                        Harutyunyan/etal:2008, Modjaz/etal:2014
 sn2004fe     2004fe	 Ic-norm	0.017882     53318.8  V	 polynomial-CfA  		 Modjaz/etal:2014
 sn2004ff     2004ff      IIb	  	0.022229     53315.5 (53313.2+/-0.9) R	(V by Bianco)       8    	 		 Modjaz/etal:2014
 sn2004ge     2004ge      Ic-norm	0.015491     53341.0 (53334.6) R	(V by Bianco)       8    	 		 Modjaz/etal:2014
@@ -39,7 +40,6 @@ sn2007ru     2007ru	 Ic-broad      0.015464     54440.0  V	       polynomial-Sah
 sn2007uy     2007uy	 Ib-pec		0.0070	     54481.2  V	       polynomial-CfA            Milisavljevic/etal:2010, Modjaz/etal:2014
 sn2008ax     2008ax	 IIb		0.00210	     54549.0  V        polynomial-Pastorello2008 Milisavljevic/etal:2010, Modjaz/etal:2014
 sn2008bo     2008bo	 IIb		0.004950     54569.2  V	       polynomial-CfA          	 Milisavljevic/etal:2010, Modjaz/etal:2014
-sn2008hw     2008hw	 Ic-broad	0.5295	     54772.5  V	       10			 Jin/etal:2013
 sn2009bb     2009bb	 Ic-broad	0.00987	     54923.4  V	       polynomial-Pignata2011, polynomial-CfA	 Pignata/etal:2011
 sn2009er     2009er      Ib-pec 	0.0350	     54982.6  V	       polynomial-CfA          	 Modjaz/etal:2014
 sn2009iz     2009iz      Ib-norm	0.014200     55108.8  V	       polynomial-CfA          	 Modjaz/etal:2014
@@ -122,6 +122,11 @@ sn2005kl     1			  4			2005kl	 Ic-norm    0.003486	     53703.0  V	       polyno
 sn2006aj     8			  26			2006aj	 Ic-broad   0.03342	     53794.2  V	       polynomial-CfA	      Pian/etal:2006, Modjaz/etal:2014
 sn2008D	     20			  28			2008D	 Ib-norm    0.007	     54494.1  V	       polynomial-CfA	      Malesani/etal:2009, Moskvitin/etal:2010
 
+###delete spectra
+#Temp_name   IAU_name  phase  reason					Ref
+sn1993J	     1993J     41     features suddenly shift in wavelength	by eye
+sn2008D	     2008D     64     wrong spectrum   				Modjaz/etal:2009, Modjaz/etal:2014
+
 ### Explaining the method for determining the date of max for some individual SNe
 1 = Pastorello2008 assumed that the first spectrum of 00er was obtained at a phase 5d.
 2 = Pastorello2008 calibrated the date of max of this SN, 2002ao, which was a SN Ib-n, to that of SN 2006jc.
@@ -132,9 +137,8 @@ sn2008D	     20			  28			2008D	 Ib-norm    0.007	     54494.1  V	       polynomi
 7 = Qiu1999 says "The photometric results showed that the B-I color evolution was very similar to that of SN 1993J. Comparing two color curves, we were able to estimate that the explosion of SN 1996cb occurred on UT 1996 December 12" .
 8 = Drout2011 fitted the observed light-curves with the Ibc light-curve templates they created from "well-sampled" Ibc's in the literature - 
 9 = We (Modjaz16) estimated it from section 3.3 and figure 4 of Cobb2010
-10 = We (Modjaz16) estimated it from figure 6 of  Jin13.
 
 ###Note
 The following are SN-GRB connections:
-SN1998bw/GRB980425  SN2003dh/GRB030329  SN2003lw/GRB031203  SN2006aj/GRB060218  sn2008hw/GRB081007  sn2009nz/GRB091127  sn2010bh/GRB100316D  SN2010ma/GRB101219B  SN2012bz/GRB120422A  SN2013cq/GRB130427A SN2013dx/GRB130702A
+SN1998bw/GRB980425  SN2003dh/GRB030329  SN2003lw/GRB031203  SN2006aj/GRB060218  sn2009nz/GRB091127  sn2010bh/GRB100316D  SN2010ma/GRB101219B  SN2012bz/GRB120422A  SN2013cq/GRB130427A SN2013dx/GRB130702A
 
