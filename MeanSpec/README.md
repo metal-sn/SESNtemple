@@ -1,7 +1,6 @@
-This directory contains all average spectra and standard deviation spectra of Stripped-Envelope SNe (SESN) from [Liu et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv151008049L), and [Modjaz et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv150907124M). Average spectra and standard deviation spectra can be used to quantify SN diversity, determine if a new transient is a novel type of explosion, and so on. See the README file in the folder for details of average spectra.
+This directory contains all mean spectra and standard deviation spectra of Stripped-Envelope SNe (SESN) from [Liu et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv151008049L), and [Modjaz et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv150907124M), inlcuding those not shown in plots. Mean spectra and standard deviation spectra can be used to quantify SN diversity, determine if a new transient is a novel type of explosion, and so on. 
 
-
-The average spectra are constructed using code from [Blondin & Tonry 2007](http://adsabs.harvard.edu/abs/2007ApJ...666.1024B) and from  [Liu et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv151008049L). 
+This directory has 4 sub-directories, ordered by subtype: SN IIb, Ib, Ic and Ic-bl. In each of those subdirectories, there are 2 sub-subdirectories ordered by the spectral inclusion method (see below). 
 
 #### Name Convention:
 
@@ -10,6 +9,10 @@ meanspec + <b>type</b> + <b>spectral inclusion method</b> + <b>phase</b> + <b>sm
 - spectral inclusion method: presence of "1specperSN" means that only 1 spectrum per SN is included in an average spectrum for the required phase range, while absence of "1specperSN" means that all spectra of that SN within the required phase range are included in the average spectra.
 - phase: in the rest-frame with respect to date of V band maximum light (includes spectra at +/- 2 days with respect to the target phase)
 - smoothing method: presence of "ft" means that spectra are smoothed using FFT method from [Liu et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv151008049L) and [Modjaz et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv150907124M), while absence of "ft" means that spectra are smoothed using band-pass filter in [Blondin & Tonry 2007](http://adsabs.harvard.edu/abs/2007ApJ...666.1024B). The spectra of SNe Ic-bl and of SNe Ic (as presented in Modjaz et al. 2016) were smoothed by the FFT method.
+
+
+These mean spectra were constructed using code from [Blondin & Tonry 2007](http://adsabs.harvard.edu/abs/2007ApJ...666.1024B) and from  [Liu et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv151008049L). They were constructed in 5-day intervals, starting at phase=-10 days, and going to phase=50 days, ie there are mean spectra at phases: -10, -5, 0, 5, ... etc.
+
 
 #### Key Words:
 - fmean: mean spectrum constructed using smoothed spectra
