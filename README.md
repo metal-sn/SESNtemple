@@ -12,7 +12,7 @@ If you use data products in this repository, please <b>acknowledge</b> this work
 	released under DOI:10.5281/zenodo.?????, 
 	available at \url{https://github.com/nyusngroup/SESNtemple/}.
 	  
-And <b>cite</b> appropriate the related reference.
+*and* <b>cite</b> the appropriate reference(s):
 
 Liu & Modjaz (2014):
 
