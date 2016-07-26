@@ -7,6 +7,7 @@ This repository contains data products from [Liu & Modjaz (2014)](http://adsabs.
  
 - <b>/SNIDtemplates</b> contains all SuperNova IDentification (SNID; [Blondin & Tonry 2007](http://adsabs.harvard.edu/abs/2007ApJ...666.1024B)) templates that were released in [Liu & Modjaz (2014)](http://adsabs.harvard.edu/abs/2014arXiv1405.1437L), and used in [Liu et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv151008049L), and [Modjaz et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv150907124M). Adding these templates to the spectra library database of SNID will increase the number of SESN templates in the database, which will help SN classification via SNID. See the README file in the folder for details of SN spectra that are used to construct SNID templates.
 
+###Acknowledgement:
 
 If you use data products in this repository, please <b>acknowledge</b> this work by including in your paper:
 
