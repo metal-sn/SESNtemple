@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/22593/nyusngroup/SESNtemple.svg)](https://zenodo.org/badge/latestdoi/22593/nyusngroup/SESNtemple)
+
 # SESNtemple
 
 This repository contains data products from [Liu & Modjaz (2014)](http://adsabs.harvard.edu/abs/2014arXiv1405.1437L), [Liu et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv151008049L), and [Modjaz et al. (2016)](http://adsabs.harvard.edu/abs/2015arXiv150907124M) on Stripped Envelope SNe (SESN), ie SNe of types IIb, Ib, Ic and Ic-bl. There are two different types of SN templates we produced and used in our research, which are stored in two different folders:
