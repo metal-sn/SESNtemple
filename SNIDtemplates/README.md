@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/22593/nyusngroup/SESNtemple.svg)](https://zenodo.org/badge/latestdoi/22593/nyusngroup/SESNtemple)
+
 ### SNIDtemplates 
 This release contains all SuperNova IDentification (SNID; [Blondin & Tonry 2007](http://arxiv.org/abs/0709.4488)) spectral templates of Stripped-Envelope SN (i.e., SNe IIb, Ib, Ic and Ic-bl) presented/included in [Liu & Modjaz 2014] (http://adsabs.harvard.edu/abs/2014arXiv1405.1437L), [Liu et al. 2016] (http://adsabs.harvard.edu/abs/2015arXiv151008049L), and [Modjaz et al. 2016] (http://adsabs.harvard.edu/abs/2015arXiv150907124M), based on both CfA Data (initially released in Liu & Modjaz 2014) and the rest of literature data (included in Liu et al. 2016 for IIb and Ib, Modjaz et al. 2016 for Ic and Ic-bl). Adding these templates to the default library of SESN spectra of SNID (https://people.lam.fr/blondin.stephane/software/snid/) will increase the number of Stripped-Envelope templates in the database, which in turn will help SN classification via SNID. We have more than doubled the number of SNe in the SNID spectral library. These are templates compliant with SNID version SNID-5.0.
 
