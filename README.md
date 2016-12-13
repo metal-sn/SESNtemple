@@ -35,36 +35,42 @@ Liu & Modjaz (2014):
 
 Liu et al. (2016):
 
-	 @ARTICLE{2015arXiv151008049L,
-     	author = {{Liu}, Y.-Q. and {Modjaz}, M. and {Bianco}, F.~B. and {Graur}, O.
-		  },
-      	title = "{Analyzing the Largest Spectroscopic Dataset of Stripped Supernovae to Improve Their Identifications and   Constrain Their Progenitors}",
-    	journal = {ArXiv e-prints},
-  	archivePrefix = "arXiv",
-     	eprint = {1510.08049},
-  	primaryClass = "astro-ph.HE",
-   	keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Solar and Stellar Astrophysics},
-	 year = 2016,
-      	month = oct,
-    	adsurl = {http://adsabs.harvard.edu/abs/2015arXiv151008049L},
-    	adsnote = {Provided by the SAO/NASA Astrophysics Data System} 
-	 }
+    @ARTICLE{2016ApJ...827...90L,
+   	author = {{Liu}, Y.-Q. and {Modjaz}, M. and {Bianco}, F.~B. and {Graur}, O.
+	},
+    	title = "{Analyzing the Largest Spectroscopic Data Set of Stripped Supernovae to Improve Their Identifications and Constrain Their Progenitors}",
+  	journal = {\apj},
+	archivePrefix = "arXiv",
+   	eprint = {1510.08049},
+ 	primaryClass = "astro-ph.HE",
+ 	keywords = {methods: data analysis, supernovae: general, supernovae: individual: SNe 1993J, 2005bf, 2005E, 2011dh},
+     	year = 2016,
+    	month = aug,
+   	volume = 827,
+      	eid = {90},
+    	pages = {90},
+      	doi = {10.3847/0004-637X/827/2/90},
+   	adsurl = {http://adsabs.harvard.edu/abs/2016ApJ...827...90L},
+  	adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
 
 Modjaz et al. (2016):
   
-	  @ARTICLE{2015arXiv150907124M,
-     	author = {{Modjaz}, M. and {Liu}, Y.~Q. and {Bianco}, F.~B. and {Graur}, O.
-		  },
-      	title = "{The Spectral SN-GRB Connection: Systematic Spectral Comparisons between Type Ic Supernovae, and broad-lined 	Type Ic Supernovae with and without Gamma-Ray Bursts}",
-    	journal = {ArXiv e-prints},
-  	archivePrefix = "arXiv",
-     	eprint = {1509.07124},
-  	primaryClass = "astro-ph.HE",
-   	keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Solar and Stellar Astrophysics},
-       	year = 2016,
-      	month = sep,
-    	adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150907124M},
-    	adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-	 }
-  
-  
+    @ARTICLE{2016ApJ...832..108M,
+   	author = {{Modjaz}, M. and {Liu}, Y.~Q. and {Bianco}, F.~B. and {Graur}, O.
+	},
+    	title = "{The Spectral SN-GRB Connection: Systematic Spectral Comparisons between Type Ic Supernovae and Broad-lined Type Ic Supernovae with and without Gamma-Ray Bursts}",
+ 	journal = {\apj},
+	archivePrefix = "arXiv",
+	eprint = {1509.07124},
+	primaryClass = "astro-ph.HE",
+	keywords = {gamma-ray burst: general, gamma-ray burst: individual: GRB-980425, GRB-030329, GRB-060218, GRB-100316D, GRB-120422A, GRB-	130427A, GRB-130702A, GRB-130215A, supernovae: general, supernovae: individual: SN-1994I, SN-2004aw, SN-2007gr, SN-1998bw, SN-2003dh, SN-2006aj, SN-2009bb, SN-2010bh, SN-2012ap, SN-2012bz, SN-2013cq, SN-2013dx, SN-2013ez },
+     	year = 2016,
+    	month = dec,
+   	volume = 832,
+      	eid = {108},
+    	pages = {108},
+      	doi = {10.3847/0004-637X/832/2/108},
+  	adsurl = {http://adsabs.harvard.edu/abs/2016ApJ...832..108M},
+ 	adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
