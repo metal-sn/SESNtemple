@@ -30,7 +30,7 @@ sn2006el     2006el	 IIb		0.017179     53984.2  V	       8, polynomial-CfA	 Modj
 sn2006jc     2006jc      Ibn		0.005571     54019.5  V        3                         Foley/etal:2007, Modjaz/etal:2014
 sn2006T	     2006T	   IIb		0.008837     53780.9  V        polynomial-CfA            Modjaz/etal:2014
 sn2007ag     2007ag	Ib-norm        0.020069     54169.8  V	       polynomial-CfA       	 Modjaz/etal:2014
-sn2007bg     2007bg      Ic-broad	0.0346	     54206.2 (54203.9)  R (converted to V)	       polynomial-Young2010    	 Young/etal:2010, Modjaz/etal:2014
+sn2007bg     2007bg      Ic-broad	0.0346	     54206.2 (54203.9)  R (converted to V)	polynomial-Young2010    	 Young/etal:2010, Modjaz/etal:2014
 sn2007cl     2007cl	 Ic-norm 	0.022182     54251.4  V	       polynomial-CfA          	 Modjaz/etal:2014
 sn2007C	     2007C	Ib-norm 	0.005894     54114.7  V	       polynomial-CfA            Modjaz/etal:2014	
 sn2007D      2007D	 Ic-broad	0.02316	     54123.1  V	       polynomial-CfA          	 Modjaz/etal:2014
@@ -127,16 +127,16 @@ sn2008D	     20			  28			2008D	 Ib-norm    0.007	     54494.1  V	       polynomi
 sn1993J	     1993J     41     features suddenly shift in wavelength	by eye
 sn2008D	     2008D     64     wrong spectrum   				Modjaz/etal:2009, Modjaz/etal:2014
 
-### Explaining the method for determining the date of max for some individual SNe
-1 = Pastorello2008 assumed that the first spectrum of 00er was obtained at a phase 5d.
+### Explaining the method for determining the date of max for a few individual SNe
+1 = Pastorello2008 assumed that the first spectrum of 00er, a Ib-n, was obtained at a phase 5d.
 2 = Pastorello2008 calibrated the date of max of this SN, 2002ao, which was a SN Ib-n, to that of SN 2006jc.
-3 = Foley2007 assumed that the date of first observation of 06jc is the date of max.
-4 = OlivaresE2013 obtained the date of maximum from the fitted Arnett's model. 
-5 = Melandri2012 fitted the rest-frame light curve with a generic broken power law function. 
-6 = Corsi2011 list their date of max for R-band in figure 2 - we transformed it into V-band date of max using Bianco+14.
-7 = Qiu1999 says "The photometric results showed that the B-I color evolution was very similar to that of SN 1993J. Comparing two color curves, we were able to estimate that the explosion of SN 1996cb occurred on UT 1996 December 12" .
+3 = Foley2007 assumed that the date of first observation of 06jc, a Ib-n, is the date of max.
+4 = OlivaresE2013 obtained the date of maximum of 10ma (SN-GRB) from the fitted Arnett's model. 
+5 = Melandri2012 fitted the rest-frame light curve of 12bz (SN-GRB) with a generic broken power law function. 
+6 = Corsi2011 list the date of max of PTF10bzf (Ic-bl) for R-band in figure 2 - we transformed it into V-band date of max using Bianco+14.
+7 = Qiu1999 says about sn1996cb, a IIb, that "The photometric results showed that the B-I color evolution was very similar to that of SN 1993J. Comparing two color curves, we were able to estimate that the explosion of SN 1996cb occurred on UT 1996 December 12" .
 8 = Drout2011 fitted the observed light-curves with the Ibc light-curve templates they created from "well-sampled" Ibc's in the literature - 
-9 = We (Modjaz16) estimated it from section 3.3 and figure 4 of Cobb2010
+9 = For 2009nz (SN-GRB), we (Modjaz16) estimated it from section 3.3 and figure 4 of Cobb2010
 
 ###Note
 The following are SN-GRB connections:
