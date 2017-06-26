@@ -34,14 +34,14 @@ These mean spectra were constructed using code from [Blondin & Tonry 2007](http:
 
 #### Examples 
 
-In IDL:
+Plot continuum-subtracted average spectra in IDL:
 ```
 IDL> restore, 'meanspecIc_1specperSN_0.sav'
 IDL> plot, wlog, fmean
 IDL> oplot, wlog, fmean + fsdev
 IDL> oplot, wlog, fmean - fsdev
 ```
-In Python:
+Plot continuum-subtracted average spectra in Python:
 ```
 from scipy.io.idl import readsav
 import pylab as pl
@@ -57,3 +57,13 @@ pl.savefig("AverageIcPhase0.png")
 which will generate the following figure
 
 ![alt tag](https://raw.githubusercontent.com/nyusngroup/SESNtemple/master/MeanSpec/MeanIcPhase0.png)
+
+Plot average spectra with continuum in Python:
+```
+from scipy.io.idl import readsav
+import pylab as pl
+s = readsav('meanspecIc_1specperSN_0.sav')
+dwbin=s.wlog[1:1024]-s.wlog[0:1023] 
+dwbin=np.append(dwbin[0], dwbin)
+pl.plot(s.wlog,(s.fmean+1)*s.smean/dwbin)
+```
