@@ -34,14 +34,14 @@ These mean spectra were constructed using code from [Blondin & Tonry 2007](http:
 
 #### Examples 
 
-Plot continuum-subtracted average spectra in IDL:
+Plot flattened average spectra in IDL:
 ```
 IDL> restore, 'meanspecIc_1specperSN_0.sav'
 IDL> plot, wlog, fmean
 IDL> oplot, wlog, fmean + fsdev
 IDL> oplot, wlog, fmean - fsdev
 ```
-Plot continuum-subtracted average spectra in Python:
+Plot flattened average spectra in Python:
 ```
 from scipy.io.idl import readsav
 import pylab as pl
@@ -58,12 +58,16 @@ which will generate the following figure
 
 ![alt tag](https://raw.githubusercontent.com/nyusngroup/SESNtemple/master/MeanSpec/MeanIcPhase0.png)
 
-Plot average spectra with continuum in Python:
+Plot non-flattened average spectra in Python:
 ```
 from scipy.io.idl import readsav
 import pylab as pl
 s = readsav('meanspecIc_1specperSN_0.sav')
-dwbin=s.wlog[1:1024]-s.wlog[0:1023] 
-dwbin=np.append(dwbin[0], dwbin)
-pl.plot(s.wlog,(s.fmean+1)*s.smean/dwbin)
+dwbin = s.wlog[1:1024]-s.wlog[0:1023] 
+dwbin = np.append(dwbin[0], dwbin) # array of bin sizes
+fnoflat = (s.fmean+1)*s.smean # flux per log lambda bin
+fnoflat_perA = fnoflat/dwbin # flux per angstrom
+pl.plot(s.wlog,fnoflat_perA)
 ```
+
+where "fnoflat_perA" is relative flux.  
