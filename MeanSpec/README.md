@@ -36,7 +36,7 @@ These mean spectra were constructed using code from [Blondin & Tonry 2007](http:
 
 Plot flattened average spectra in IDL:
 ```
-IDL> restore, 'meanspecIc_1specperSN_0.sav'
+IDL> restore, 'meanspecIc_1specperSN_00.sav'
 IDL> plot, wlog, fmean
 IDL> oplot, wlog, fmean + fsdev
 IDL> oplot, wlog, fmean - fsdev
@@ -45,7 +45,7 @@ Plot flattened average spectra in Python:
 ```
 from scipy.io.idl import readsav
 import pylab as pl
-s = readsav('meanspecIc_1specperSN_0.sav')
+s = readsav('meanspecIc_1specperSN_00.sav')
 pl.fill_between(s.wlog, s.fmean + s.fsdev, s.fmean - s.fsdev, color = 'k', alpha = 0.5)
 pl.plot(s.wlog, s.fmean, label="mean Ic phase = 0", color="DarkGreen", lw=2)
 pl.ylabel(r"relative flux", fontsize = 18)
@@ -62,7 +62,7 @@ Plot non-flattened average spectra in Python:
 ```
 from scipy.io.idl import readsav
 import pylab as pl
-s = readsav('meanspecIc_1specperSN_0.sav')
+s = readsav('meanspecIc_1specperSN_00.sav')
 dwbin = s.wlog[1:1024]-s.wlog[0:1023] 
 dwbin = np.append(dwbin[0], dwbin) # array of bin sizes
 fnoflat = (s.fmean+1)*s.smean # flux per log lambda bin
