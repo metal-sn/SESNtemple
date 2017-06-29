@@ -47,7 +47,7 @@ from scipy.io.idl import readsav
 import pylab as pl
 s = readsav('meanspecIc_1specperSN_00.sav')
 pl.fill_between(s.wlog, s.fmean + s.fsdev, s.fmean - s.fsdev, color = 'k', alpha = 0.5)
-pl.plot(s.wlog, s.fmean, label="mean Ic phase = 0", color="DarkGreen", lw=2)
+pl.plot(s.wlog, s.fmean, label="flattened mean Ic phase = 0", color="DarkGreen", lw=2)
 pl.ylabel(r"relative flux", fontsize = 18)
 pl.xlabel(r"Rest Wavelength $\AA$", fontsize = 18)
 pl.legend(fontsize = 18)
@@ -56,18 +56,25 @@ pl.savefig("AverageIcPhase0.png")
 
 which will generate the following figure
 
-![alt tag](https://raw.githubusercontent.com/nyusngroup/SESNtemple/master/MeanSpec/MeanIcPhase0.png)
+![alt tag](https://raw.githubusercontent.com/nyusngroup/SESNtemple/master/MeanSpec/AverageIcPhase0.png)
 
 Plot non-flattened average spectra in Python:
 ```
 from scipy.io.idl import readsav
 import pylab as pl
+import numpy as np
 s = readsav('meanspecIc_1specperSN_00.sav')
 dwbin = s.wlog[1:1024]-s.wlog[0:1023] 
 dwbin = np.append(dwbin[0], dwbin) # array of bin sizes
 fnoflat = (s.fmean+1)*s.smean # flux per log lambda bin
 fnoflat_perA = fnoflat/dwbin # flux per angstrom
-pl.plot(s.wlog,fnoflat_perA)
+pl.plot(s.wlog,fnoflat_perA, label="non-flattened mean Ic phase = 0", color="DarkGreen", lw=2)
+pl.ylabel(r"relative flux", fontsize = 18)
+pl.xlabel(r"Rest Wavelength $\AA$", fontsize = 18)
+pl.legend(fontsize = 18)
+pl.savefig("AverageIcPhase0Conti.png")
 ```
 
-where "fnoflat_perA" is relative flux.  
+which will generate the following figure
+
+![alt tag](https://raw.githubusercontent.com/nyusngroup/SESNtemple/master/MeanSpec/AverageIcPhase0Conti.png)
