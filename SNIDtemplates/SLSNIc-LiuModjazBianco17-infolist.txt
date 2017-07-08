@@ -1,4 +1,5 @@
-SN_name		redshift	E(B-V)		temperature	note	max_MJD		 max_date	startpos	obs_band	note
+SN_name	redshift	E(B-V)		temperature	note	max_MJD		 max_date	startpos	obs_band	note
+                                                                                                  (ignore startpos)
 iPTF13ajg 	0.74		0.027		15000		fig5	56405.6		 999		10		R	table1
 LSQ12dlf	0.25		0.013		13000		fig9	56138.5		 20120730	9		V	table1
 LSQ14bdq	0.35		0.056   	TBD		TBD	56807		999		10		r	table1
