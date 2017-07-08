@@ -5,7 +5,7 @@ This release contains all new SuperNova IDentification (SNID; [Blondin & Tonry 2
 
 Adding these templates to the default library of SESN spectra of SNID (https://people.lam.fr/blondin.stephane/software/snid/) will increase the number of Stripped-Envelope templates in the database, which in turn will help SN classification via SNID. We have more than doubled the number of SNe in the SNID spectral library. These are templates compliant with SNID version SNID-5.0.
 
-The text file **SNIDtemplate-SESNe-info.txt** includes detailed information about the SNe and their spectra that were used to construct the templates. Its columns list for each SN:
+The text file **SNIDtemplate-SESNe-info.txt** includes detailed information about the SESNe and their spectra that were used to construct the templates. Its columns list for each SN:
 - the subtype
 - the redshift (which was used to de-redshift the spectra) 
 - the date of maxium light, according to which the spectra are referenced for their phase (we note that SN-GRBs and SNe Ibn have the largest uncertainties in their date of max). This release also contains spectra of SNe without maximum light measurements (see info).
@@ -14,6 +14,8 @@ The text file **SNIDtemplate-SESNe-info.txt** includes detailed information abou
 - literature references for the spectra
 
 We also include SNe that have no measured date of max - in the SNID library, their listed "phases" are computed with respect to the first spectrum. 
+
+For the SLSNe Ic, **SLSNIc-LiuModjazBianco17-infolist.txt**  contains information about the SLSNe Ic and their spectra in a similar format.
 
 There are 2 subdirectories with that include the .lnw files for the SNID templates: 
 - **/templates_adjusted**: These include SNe that had been included in Blondin's SNID library release (ie "templates-2.0") but for which we either added additional spectra, changed the SN type or the date of max
