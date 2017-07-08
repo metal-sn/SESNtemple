@@ -15,7 +15,7 @@ The text file **SNIDtemplate-SESNe-info.txt** includes detailed information abou
 
 We also include SNe that have no measured date of max - in the SNID library, their listed "phases" are computed with respect to the first spectrum. 
 
-For the SLSNe Ic, **SLSNIc-LiuModjazBianco17-infolist.txt**  contains information about the SLSNe Ic and their spectra in a similar format.
+For the SLSNe Ic, **SLSNIc-LiuModjazBianco17-infolist.txt**  contains information about the SLSNe Ic and their spectra in a similar format (see also Table 1 in Liu, Modjaz & Bianco 2017 for more information on the spectra).
 
 There are 2 subdirectories with that include the .lnw files for the SNID templates: 
 - **/templates_adjusted**: These include SNe that had been included in Blondin's SNID library release (ie "templates-2.0") but for which we either added additional spectra, changed the SN type or the date of max
