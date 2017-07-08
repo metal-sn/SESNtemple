@@ -1,0 +1,34 @@
+SN_name		redshift	E(B-V)		temperature	note	max_MJD		 max_date	startpos	obs_band	note
+												(ignore startpos)
+iPTF13ajg 	0.74		0.027		15000		fig5	56405.6		 999		10		R	table1
+LSQ12dlf	0.25		0.013		13000		fig9	56138.5		 20120730	9		V	table1
+LSQ14bdq	0.35		0.056   	TBD		TBD	56807		999		10		r	table1
+PS1-10awh	0.908		0.0786		19700		table3	55515.5	      	20101115	8		unknown page3
+PS1-10bzj	0.650		0.008		13500		fig4	55563.7		999		18		bolometric page3
+PS1-10ky	0.956		0.0340		10000		fig18	55397.5		20100720	8		unknown page3
+PS1-11ap	0.524		0.006		12000		fig9	55615.5		999		9		r       table2 or page4
+PTF09atu	0.501		0.0477		TBD		TBD	55062		999		9		u	figure3
+PTF09cnd	0.258		0.0242		10000		sup	55090.6		999		9		u	figure3
+PTF09cwl	0.349		0.0161		TBD		TBD	55070.7		999		9		u	figure3
+PTF10cwr	0.231		0.0387		13500		fig18	55282.8		999		9		u	figure3
+PTF10hgi	0.0985		0.09		10000		fig14	55361.4(4)	999		9		g	table2 or tableA1
+PTF11rks	0.193		0.04		15000		fig5	55932.7(2)	999		9		g       tableA3
+PTF12dam	0.1078		0.0435		16000		sup	56088		20120610	0		bolometric	page4_supplementary
+SCP06F6		1.189		0.0099		13000		table3	53872.5		20060517	0		z       page2
+sn2005ap	0.2832		0.0085		TBD		TBD	53439		20050310	7		unfiltered page1		
+sn2006oz	0.376		0.047		16000		table2	54068(2)	999		9		bolometric      estimate_table3_fig7
+sn2007bi	0.1279		0.028		TBD		TBD	54152		999		7		R	figure1
+sn2011ke	0.143		0.01		15000		fig5	55686.5(2)	999		7		g tableA2
+sn2011kf	0.245		0.02		15000		fig14	55925.5(3)	999		7		g tableA5
+sn2012il	0.175		0.02		14000		fig14	55941.4(3)	999		7		g tableA6
+sn2013dg	0.26		0.047		16000		fig11	56450		999		7		r	table3	
+SNLS06D4eu	1.588		0.0286		10600		fig8	54016.5(2.5)	999		7		bolometric fig14
+SNLS07D2bv	1.5 		0.000		00000 		NA	54200.5		20070326	7		i	estimate_fig3
+SSS120810-231802-560926	0.17	0.019	15000		fig10	56148.3		20120807	21		R	table2
+sn2011kl    	0.677		0.057		TBD		TBD	55926.0		20111231	7		bolometric	fig2_page5	
+iPTF13ehe	0.33		0.04		7000		page13	56670.3		999		6		r	page4		
+DES13S2cmm	0.663		0.028		10500		fig6	56559.2		20130924	11		r	table1
+DES14X3taz	0.608		0.0218		12500		fig1	57080.0		20150227	11		g	page4
+LSQ14mo		0.253		0.303		12000		fig18	56699.0		20140211	8		i	table1			
+ASASSN-15lh	0.2326		0.03		22000		fig3	57178.5		20150605	9		V	page1
+sn2015bn	0.1136		0.022		10000		fig16	57102.0		999		7		r	page4
