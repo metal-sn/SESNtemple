@@ -77,9 +77,9 @@ Modjaz et al. (2016):
  	adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 	}
 
-Liu, Modjaz & Bianco (2017):
 
-@ARTICLE{2017ApJ...845...85L,
+Liu, Modjaz & Bianco (2017):
+    @ARTICLE{2017ApJ...845...85L,
    author = {{Liu}, Y.-Q. and {Modjaz}, M. and {Bianco}, F.~B.},
     title = "{Analyzing the Largest Spectroscopic Data Set of Hydrogen-poor Super-luminous Supernovae}",
   journal = {\apj},
@@ -95,5 +95,5 @@ archivePrefix = "arXiv",
       doi = {10.3847/1538-4357/aa7f74},
    adsurl = {http://adsabs.harvard.edu/abs/2017ApJ...845...85L},
   adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
+	}
 
