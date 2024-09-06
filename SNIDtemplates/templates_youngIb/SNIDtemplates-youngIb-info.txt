@@ -1,0 +1,20 @@
+###New templates for young Ib (Yesmin et al 2024) 
+###with date of maximum light: 
+- if listed "converted to V", we use the date of maximum in V-band that was converted from the date of maximum in another band using the conversion Table 10 from Bianco+14. Date of maximum in another band was first calculated following the method described in Bianco+14. 
+- if listed "Following Bianco et al. 2014" then it's based on the polynomial fitting code by Bianco+14 that was applied to the original photometry data
+
+#Temp_name    IAU_name    Type   Redshift    MJD_Tmax    Band     Method 
+ SN2023ljf    SN 2023ljf  Ib      0.015      60132.87    V        Following Bianco et al. 2014
+ SN2022nyo    SN 2022nyo  Ib      0.010637   59776.91    V        Following Bianco et al. 2014
+ SN2021ukt    SN 2021ukt  Ib      0.012886   59441.66    V        Converted to V-band from i-band
+ SN2021njk    SN 2021njk  Ib      0.012952   59375.75    V        Following Bianco et al. 2014
+ SN2021hen    SN 2021hen  Ib      0.021125   59311.73    V        Converted to V-band from i-band
+ SN2020hvp    SN 2020hvp  Ib      0.005247   58975.95    V        Following Bianco et al. 2014
+ SN2019odp    SN 2019odp  Ib      0.014353   58735.19    V        Following Bianco et al. 2014
+ SN2016bau    SN 2016bau  Ib      0.003856   57478.17    V        Following Bianco et al. 2014
+
+
+### Note
+The following change type: SN 2022nyo IIb -> Ib, SN 2019odp Ic-bl -> Ib; 
+Additionally, SN 2021ukt is a peculiar supernova in the sample. See Yesmin et al. 2024 for details. 
+We include additional templates for SN 2019odp (from Schweyer et al. 2023) and SN 2016bau (from Aryan et al. 2021) along with our data set. 
