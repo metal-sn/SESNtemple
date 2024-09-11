@@ -5,12 +5,12 @@ This release contains new SuperNova IDentification (SNID; Blondin & Tonry 2007) 
 Adding these templates to the default library of SESN spectra of SNID (https://people.lam.fr/blondin.stephane/software/snid/) and the extended SESNe Modjaz Group Sample (MGS; Modjaz et al. 2014; Liu et al. 2016, 2017; Williamson et al. 2019) will increase the number of SNID templates of premaximum spectra of SNe Ib by ∼54%. Templates in the database will help SN classification via SNID. These templates are compliant with SNID version SNID-5.0.
 
 The text file SNIDtemplate-youngIb-info.txt includes detailed information about the SNe in the sample and their spectra that were used to construct the templates. Its columns list for each SN:
-template name
-IAU name
-the redshift (which was used to de-redshift the spectra)
-the date of maxium light, according to which the spectra are referenced for their phase 
-filter in which the date of max is reported in
-method with which the date of maximum was determined
+- SN name
+- IAU name
+- the redshift (which was used to de-redshift the spectra)
+- the date of maxium light, according to which the spectra are referenced for their phase
+- filter in which the date of max is reported in
+- method with which the date of maximum was determined
 
 The subdirectory called "templates_yesmin" includes the .lnw files for the SNID templates.
 
