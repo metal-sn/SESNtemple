@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/22593/nyusngroup/SESNtemple.svg)](https://zenodo.org/badge/latestdoi/22593/nyusngroup/SESNtemple)
 
 ### SNIDtemplates 
-This release contains all new SuperNova IDentification (SNID; [Blondin & Tonry 2007](http://arxiv.org/abs/0709.4488)) spectral templates (compared to SNID database templates-2.0) of Stripped-Envelope SN (i.e., SNe IIb, Ib, Ic and Ic-bl) presented/included in [Liu & Modjaz 2014](http://adsabs.harvard.edu/abs/2014arXiv1405.1437L), [Liu et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...827...90L) and in [Modjaz et al. (2016)](http://adsabs.harvard.edu/abs/2016ApJ...832..108M), that are based on both CfA Data (initially released in Liu & Modjaz 2014) and the rest of literature data (included in Liu et al. 2016 for IIb and Ib, Modjaz et al. 2016 for Ic and Ic-bl). We also now include SNID templates of Superluminous SNe Ic (SLSNe Ic) produced in [Liu, Modjaz & Bianco (2017)](http://adsabs.harvard.edu/abs/2016arXiv161207321L), based on literature data. NOTE: if you want to include the SLSNe Ic in your SNID template library, you also need to modify the required SNID file so this new type of SLSN Ic is recognized (see SNID documentation on how to add new types).
+This release contains all new SuperNova IDentification (SNID; [Blondin & Tonry 2007](http://arxiv.org/abs/0709.4488)) spectral templates (compared to SNID database templates-2.0) of Stripped-Envelope SN (i.e., SNe IIb, Ib, Ic and Ic-bl) presented/included in [Liu & Modjaz 2014](http://adsabs.harvard.edu/abs/2014arXiv1405.1437L), [Liu et al. 2016](http://adsabs.harvard.edu/abs/2016ApJ...827...90L) and in [Modjaz et al. (2016)](http://adsabs.harvard.edu/abs/2016ApJ...832..108M), that are based on both CfA Data (initially released in Liu & Modjaz 2014) and the rest of literature data (included in Liu et al. 2016 for IIb and Ib, Modjaz et al. 2016 for Ic and Ic-bl). We also now include SNID templates of Superluminous SNe Ic (SLSNe Ic) produced in [Liu, Modjaz & Bianco (2017)](http://adsabs.harvard.edu/abs/2016arXiv161207321L), based on literature data. NOTE: if you want to include the SLSNe Ic in your SNID template library, you also need to modify the required SNID file so this new type of SLSN Ic is recognized (see SNID documentation on how to add new types). We have also now added SNID templates of young Type Ic and young Type Ib presented in [Williamson et al. (2023)](http://ui.adsabs.harvard.edu/abs/2023ApJ...944L..49W), [Yesmin et al. (2024)](https://ui.adsabs.harvard.edu/abs/2024arXiv240904522Y/abstract) respectively.
 
 Adding these templates to the default library of SESN spectra of SNID (https://people.lam.fr/blondin.stephane/software/snid/) will increase the number of Stripped-Envelope templates in the database, which in turn will help SN classification via SNID. We have more than doubled the number of SNe in the SNID spectral library. These are templates compliant with SNID version SNID-5.0.
 
@@ -17,9 +17,11 @@ We also include SNe that have no measured date of max - in the SNID library, the
 
 For the SLSNe Ic, **SLSNIc-LiuModjazBianco17-infolist.txt**  contains information about the SLSNe Ic and their spectra in a similar format (see also Table 1 in Liu, Modjaz & Bianco 2017 for more information on the spectra).
 
-There are 2 subdirectories with that include the .lnw files for the SNID templates: 
+There are 4 subdirectories with that include the .lnw files for the SNID templates: 
 - **/templates_adjusted**: These include SNe that had been included in Blondin's SNID library release (ie "templates-2.0") but for which we either added additional spectra, changed the SN type or the date of max
 - **/templates_new**: These include SNe that had not been released in Blondin's SNID library release (ie "templates-2.0"), and thus are "new". The subdirectory SLSNIc_SNIDtemplates contains the SNID templates of SLSNe Ic from Liu, Modjaz & Bianco 2017.
+-  **/templates_williamson**: This subdirectory SNID templates (.lnw files) of Young Ic.
+-  **/templates_youngIb/templates_yesmin**: This subdirectory includes SNID templates of young SNe Ib with at least three premaximum spectra. Details about this template set is available on SNIDtemplates/templates_youngIb/README.md.
 
 NOTES: 
 - we included 2 new SN types:
