@@ -17,22 +17,25 @@ For comparison: there were 235 spectra (with 91 premaximum spectra) of 22 SNe Ib
 
 # Acknowledgement
 If you use data products in this repository (SNIDtemplates/templates_youngIb), please acknowledge this work by including in your paper:
-@ARTICLE{2024arXiv240904522Y,
-       author = {{Yesmin}, N. and {Pellegrino}, C. and {Modjaz}, M. and {Baer-Way}, R. and {Howell}, D.~A. and {Arcavi}, I. and {Farah}, J. and {Hiramatsu}, D. and {Hosseinzadeh}, G. and {McCully}, C. and {Newsome}, M. and {Padilla Gonzalez}, E. and {Terreran}, G. and {Jha}, S.},
-        title = "{Spectral Dataset of Young Type Ib Supernovae and their Time-evolution}",
-      journal = {arXiv e-prints},
-     keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Solar and Stellar Astrophysics},
-         year = 2024,
-        month = sep,
-          eid = {arXiv:2409.04522},
-        pages = {arXiv:2409.04522},
-          doi = {10.48550/arXiv.2409.04522},
-archivePrefix = {arXiv},
-       eprint = {2409.04522},
- primaryClass = {astro-ph.HE},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240904522Y},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
+
+Yesmin et al. (2024):
+
+	@ARTICLE{2024arXiv240904522Y,
+	       author = {{Yesmin}, N. and {Pellegrino}, C. and {Modjaz}, M. and {Baer-Way}, R. and {Howell}, D.~A. and {Arcavi}, I. and {Farah}, J. and {Hiramatsu}, D. and {Hosseinzadeh}, G. and {McCully}, C. and {Newsome}, M. and {Padilla Gonzalez}, E. and {Terreran}, G. and {Jha}, S.},
+	        title = "{Spectral Dataset of Young Type Ib Supernovae and their Time-evolution}",
+	      journal = {arXiv e-prints},
+	     keywords = {Astrophysics - High Energy Astrophysical Phenomena, Astrophysics - Solar and Stellar Astrophysics},
+	         year = 2024,
+	        month = sep,
+	          eid = {arXiv:2409.04522},
+	        pages = {arXiv:2409.04522},
+	          doi = {10.48550/arXiv.2409.04522},
+	archivePrefix = {arXiv},
+	       eprint = {2409.04522},
+	 primaryClass = {astro-ph.HE},
+	       adsurl = {https://ui.adsabs.harvard.edu/abs/2024arXiv240904522Y},
+	      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+	}
 
 
 # References
