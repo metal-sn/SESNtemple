@@ -21,7 +21,7 @@ There are 4 subdirectories with that include the .lnw files for the SNID templat
 - **/templates_adjusted**: These include SNe that had been included in Blondin's SNID library release (ie "templates-2.0") but for which we either added additional spectra, changed the SN type or the date of max
 - **/templates_new**: These include SNe that had not been released in Blondin's SNID library release (ie "templates-2.0"), and thus are "new". The subdirectory SLSNIc_SNIDtemplates contains the SNID templates of SLSNe Ic from Liu, Modjaz & Bianco 2017.
 -  **/templates_williamson**: This subdirectory SNID templates (.lnw files) of Young Ic.
--  **/templates_youngIb/templates_yesmin**: This subdirectory includes SNID templates of young SNe Ib with at least three premaximum spectra. Details about this template set is available on SNIDtemplates/templates_youngIb/README.md.
+-  **/templates_youngIb/templates_yesmin**: This subdirectory includes SNID templates of young SNe Ib with at least three premaximum spectra. Details about this template set is available on SNIDtemplates/templates_youngIb/README.md (https://github.com/metal-sn/SESNtemple/blob/master/SNIDtemplates/templates_youngIb/README.md).
 
 NOTES: 
 - we included 2 new SN types:
