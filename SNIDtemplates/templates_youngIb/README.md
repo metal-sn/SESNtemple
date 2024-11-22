@@ -1,6 +1,8 @@
 # Young SNe Ib
 This repository contains the data products of the spectral data set of young Type Ib from Yesmin et al. 2024 (https://ui.adsabs.harvard.edu/abs/2024arXiv240904522Y/exportcitation). This release contains new spectral templates of SNe Ib used for the SuperNova IDentification (SNID; Blondin & Tonry 2007) presented in Yesmin et al. 2024, which are mainly based on Las Cumbres Observatory (LCO) data. SN 2019odp and SN 2016bau have additional data that were presented in Schweyer et al. 2023 and Aryan et al. 2021 respectively and are also included in the SNID templates that we created.
 
+SNe 2022nyo, 2021ukt, and 2019odp are labeled as Ib-pec (peculiar Type Ib) in their SNID templates. These SNe change from some other type to SNe Ib; we label them as Ib-pec because of their 'type-changing' behavior. We also note that there are many kinds of 'Ib-pec' in the current SNID library. We encourage to read papers on those specific SNe to figure out what was "peculiar" about them. 
+
 Adding these templates to the default library of SESN spectra of SNID (https://people.lam.fr/blondin.stephane/software/snid/) and the extended SESNe Modjaz Group Sample (MGS; Modjaz et al. 2014; Liu et al. 2016, 2017; Williamson et al. 2019) will increase the number of SNID templates of premaximum spectra of SNe Ib by ∼54%. Templates in the database will help SN classification via SNID. These templates are compliant with SNID version SNID-5.0.
 
 The text file SNIDtemplate-youngIb-info.txt includes detailed information about the SNe in the sample and their spectra that were used to construct the templates. Its columns list for each SN:
